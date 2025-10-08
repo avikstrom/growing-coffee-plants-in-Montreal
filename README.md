@@ -1,3 +1,10 @@
 # growing-coffee-plants
 
-This code is a first step to the project, and simply monitors temperature and humidity with a DHT11 sensor. It outputs data readings onto a liquid crystal display. See .png for wiring schematic.
+This project is done in multiple parts.
+
+Step 1: Monitor temperature and humidity with a DHT11 sensor and my Arduino Uno. It outputs data readings onto a liquid crystal display. See .png for wiring schematic.
+
+Step 2: Cabinet/enclosure upgrades.
+
+Step 3: Monitor temperature and humidity with a DHT11 sensor and outputs data readings onto a liquid crystal display. Uses an external relay to deliver power to a humidifying unit (atomizing transducer) whenever the humidity drops below 70% to humidify the coffee plant in its enclosed chamber. An additional safety feature is in place to detect when the humidifier reservoir becomes empty, shutting off the device when water is not detected with a water sensor.
+
