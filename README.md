@@ -13,11 +13,13 @@ Step 3: Monitor temperature and humidity with a DHT11 sensor and outputs data re
 necessary subcomponents:
 1) atomizing transucer (DAOKAI 2 pcs Micro USB Humidifier Module Atomization Disc 5V Module 108KHz 2W), push button short circuited
 2) water sensor HW-038
-3) relay SRD-05VDC-SL-C
-4) power module HW-131
-5) arduino uno
-6) barrel jack wall plug
-7) 9V battery
+3) 1602IIC LCD screen
+4) dht11 temperature & humidity sensor
+5) relay SRD-05VDC-SL-C
+6) power module HW-131
+7) arduino uno
+8) barrel jack wall plug
+9) 9V battery
 
 Step 4 (not done yet): switch relay for MOSFET to extend device lifetime. Buy a second barrel jack cable to power the arduino for safety reasons (battery does not run out while relay circuit is still powered). 3D print an adapter to hold the water sensor and atomising transducer in place so they are not just "free floating" in my "water reservoir" (mug). Repot the coffee plant. Install a second shower curtain liner on other mesh side of the cabinet, as it is harder to humidify with winter approaching.
 
