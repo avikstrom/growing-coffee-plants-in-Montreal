@@ -53,6 +53,7 @@ void loop() {
   
   unsigned int watersensorValue = analogRead(pinWaterSensor);
  
+  //500 corresponds roughly to 1cm of water left in the reservoir
   if (humidity<=70 && watersensorValue>500){
     //digitalWrite(pinRelay,LOW);
     //delay(1500);
@@ -65,3 +66,4 @@ void loop() {
   }
 
 }
+
